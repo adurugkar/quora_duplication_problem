@@ -1,0 +1,15 @@
+artifact_uri: sqlite///mlflow1.db/1/532f897005aa4cf9aaf02cf88af015a0/artifacts
+end_time: 1666717240282
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 532f897005aa4cf9aaf02cf88af015a0
+run_uuid: 532f897005aa4cf9aaf02cf88af015a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1666717235445
+status: 4
+tags: []
+user_id: avina

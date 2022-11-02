@@ -1,0 +1,1 @@
+{'n_estimators': [40, 60, 80], 'max_depth': range(1, 5), 'learning_rate': [0.001], 'min_child_weight': range(1, 4)}

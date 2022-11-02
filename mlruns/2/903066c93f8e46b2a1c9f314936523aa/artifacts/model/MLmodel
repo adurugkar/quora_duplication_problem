@@ -1,0 +1,120 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.2
+mlflow_version: 1.29.0
+model_uuid: d84b429e87f94321a18367660a2397f0
+run_id: 903066c93f8e46b2a1c9f314936523aa
+signature:
+  inputs: '[{"name": "id", "type": "long"}, {"name": "len_q1", "type": "long"}, {"name":
+    "len_q2", "type": "long"}, {"name": "q1_word", "type": "long"}, {"name": "q2_word",
+    "type": "long"}, {"name": "total_word", "type": "long"}, {"name": "differ_word_num",
+    "type": "long"}, {"name": "same_first_word", "type": "long"}, {"name": "same_last_word",
+    "type": "long"}, {"name": "total_unique_word", "type": "long"}, {"name": "total_unique_word_withoutstopword_num",
+    "type": "long"}, {"name": "total_unique_word_num_ratio", "type": "double"}, {"name":
+    "common_word", "type": "long"}, {"name": "common_word_ratio", "type": "double"},
+    {"name": "word_share", "type": "double"}, {"name": "common_word_ratio_min", "type":
+    "double"}, {"name": "common_word_ratio_max", "type": "double"}, {"name": "common_stop_word_ratio_min",
+    "type": "double"}, {"name": "common_stop_word_ratio_max", "type": "double"}, {"name":
+    "common_word_withoutstopword", "type": "long"}, {"name": "common_word_withoutstopword_ratio",
+    "type": "double"}, {"name": "common_word_withoutstopword_ratio_min", "type": "double"},
+    {"name": "common_word_withoutstopword_ratio_max", "type": "double"}, {"name":
+    "fuzz_ratio", "type": "long"}, {"name": "fuzz_partial_ratio", "type": "long"},
+    {"name": "fuzz_token_set_ratio", "type": "long"}, {"name": "fuzz_token_sort_ratio",
+    "type": "long"}, {"name": "longest_substr_ratio", "type": "double"}, {"name":
+    "0_x", "type": "double"}, {"name": "1_x", "type": "double"}, {"name": "2_x", "type":
+    "double"}, {"name": "3_x", "type": "double"}, {"name": "4_x", "type": "double"},
+    {"name": "5_x", "type": "double"}, {"name": "6_x", "type": "double"}, {"name":
+    "7_x", "type": "double"}, {"name": "8_x", "type": "double"}, {"name": "9_x", "type":
+    "double"}, {"name": "10_x", "type": "double"}, {"name": "11_x", "type": "double"},
+    {"name": "12_x", "type": "double"}, {"name": "13_x", "type": "double"}, {"name":
+    "14_x", "type": "double"}, {"name": "15_x", "type": "double"}, {"name": "16_x",
+    "type": "double"}, {"name": "17_x", "type": "double"}, {"name": "18_x", "type":
+    "double"}, {"name": "19_x", "type": "double"}, {"name": "20_x", "type": "double"},
+    {"name": "21_x", "type": "double"}, {"name": "22_x", "type": "double"}, {"name":
+    "23_x", "type": "double"}, {"name": "24_x", "type": "double"}, {"name": "25_x",
+    "type": "double"}, {"name": "26_x", "type": "double"}, {"name": "27_x", "type":
+    "double"}, {"name": "28_x", "type": "double"}, {"name": "29_x", "type": "double"},
+    {"name": "30_x", "type": "double"}, {"name": "31_x", "type": "double"}, {"name":
+    "32_x", "type": "double"}, {"name": "33_x", "type": "double"}, {"name": "34_x",
+    "type": "double"}, {"name": "35_x", "type": "double"}, {"name": "36_x", "type":
+    "double"}, {"name": "37_x", "type": "double"}, {"name": "38_x", "type": "double"},
+    {"name": "39_x", "type": "double"}, {"name": "40_x", "type": "double"}, {"name":
+    "41_x", "type": "double"}, {"name": "42_x", "type": "double"}, {"name": "43_x",
+    "type": "double"}, {"name": "44_x", "type": "double"}, {"name": "45_x", "type":
+    "double"}, {"name": "46_x", "type": "double"}, {"name": "47_x", "type": "double"},
+    {"name": "48_x", "type": "double"}, {"name": "49_x", "type": "double"}, {"name":
+    "50_x", "type": "double"}, {"name": "51_x", "type": "double"}, {"name": "52_x",
+    "type": "double"}, {"name": "53_x", "type": "double"}, {"name": "54_x", "type":
+    "double"}, {"name": "55_x", "type": "double"}, {"name": "56_x", "type": "double"},
+    {"name": "57_x", "type": "double"}, {"name": "58_x", "type": "double"}, {"name":
+    "59_x", "type": "double"}, {"name": "60_x", "type": "double"}, {"name": "61_x",
+    "type": "double"}, {"name": "62_x", "type": "double"}, {"name": "63_x", "type":
+    "double"}, {"name": "64_x", "type": "double"}, {"name": "65_x", "type": "double"},
+    {"name": "66_x", "type": "double"}, {"name": "67_x", "type": "double"}, {"name":
+    "68_x", "type": "double"}, {"name": "69_x", "type": "double"}, {"name": "70_x",
+    "type": "double"}, {"name": "71_x", "type": "double"}, {"name": "72_x", "type":
+    "double"}, {"name": "73_x", "type": "double"}, {"name": "74_x", "type": "double"},
+    {"name": "75_x", "type": "double"}, {"name": "76_x", "type": "double"}, {"name":
+    "77_x", "type": "double"}, {"name": "78_x", "type": "double"}, {"name": "79_x",
+    "type": "double"}, {"name": "80_x", "type": "double"}, {"name": "81_x", "type":
+    "double"}, {"name": "82_x", "type": "double"}, {"name": "83_x", "type": "double"},
+    {"name": "84_x", "type": "double"}, {"name": "85_x", "type": "double"}, {"name":
+    "86_x", "type": "double"}, {"name": "87_x", "type": "double"}, {"name": "88_x",
+    "type": "double"}, {"name": "89_x", "type": "double"}, {"name": "90_x", "type":
+    "double"}, {"name": "91_x", "type": "double"}, {"name": "92_x", "type": "double"},
+    {"name": "93_x", "type": "double"}, {"name": "94_x", "type": "double"}, {"name":
+    "95_x", "type": "double"}, {"name": "0_y", "type": "double"}, {"name": "1_y",
+    "type": "double"}, {"name": "2_y", "type": "double"}, {"name": "3_y", "type":
+    "double"}, {"name": "4_y", "type": "double"}, {"name": "5_y", "type": "double"},
+    {"name": "6_y", "type": "double"}, {"name": "7_y", "type": "double"}, {"name":
+    "8_y", "type": "double"}, {"name": "9_y", "type": "double"}, {"name": "10_y",
+    "type": "double"}, {"name": "11_y", "type": "double"}, {"name": "12_y", "type":
+    "double"}, {"name": "13_y", "type": "double"}, {"name": "14_y", "type": "double"},
+    {"name": "15_y", "type": "double"}, {"name": "16_y", "type": "double"}, {"name":
+    "17_y", "type": "double"}, {"name": "18_y", "type": "double"}, {"name": "19_y",
+    "type": "double"}, {"name": "20_y", "type": "double"}, {"name": "21_y", "type":
+    "double"}, {"name": "22_y", "type": "double"}, {"name": "23_y", "type": "double"},
+    {"name": "24_y", "type": "double"}, {"name": "25_y", "type": "double"}, {"name":
+    "26_y", "type": "double"}, {"name": "27_y", "type": "double"}, {"name": "28_y",
+    "type": "double"}, {"name": "29_y", "type": "double"}, {"name": "30_y", "type":
+    "double"}, {"name": "31_y", "type": "double"}, {"name": "32_y", "type": "double"},
+    {"name": "33_y", "type": "double"}, {"name": "34_y", "type": "double"}, {"name":
+    "35_y", "type": "double"}, {"name": "36_y", "type": "double"}, {"name": "37_y",
+    "type": "double"}, {"name": "38_y", "type": "double"}, {"name": "39_y", "type":
+    "double"}, {"name": "40_y", "type": "double"}, {"name": "41_y", "type": "double"},
+    {"name": "42_y", "type": "double"}, {"name": "43_y", "type": "double"}, {"name":
+    "44_y", "type": "double"}, {"name": "45_y", "type": "double"}, {"name": "46_y",
+    "type": "double"}, {"name": "47_y", "type": "double"}, {"name": "48_y", "type":
+    "double"}, {"name": "49_y", "type": "double"}, {"name": "50_y", "type": "double"},
+    {"name": "51_y", "type": "double"}, {"name": "52_y", "type": "double"}, {"name":
+    "53_y", "type": "double"}, {"name": "54_y", "type": "double"}, {"name": "55_y",
+    "type": "double"}, {"name": "56_y", "type": "double"}, {"name": "57_y", "type":
+    "double"}, {"name": "58_y", "type": "double"}, {"name": "59_y", "type": "double"},
+    {"name": "60_y", "type": "double"}, {"name": "61_y", "type": "double"}, {"name":
+    "62_y", "type": "double"}, {"name": "63_y", "type": "double"}, {"name": "64_y",
+    "type": "double"}, {"name": "65_y", "type": "double"}, {"name": "66_y", "type":
+    "double"}, {"name": "67_y", "type": "double"}, {"name": "68_y", "type": "double"},
+    {"name": "69_y", "type": "double"}, {"name": "70_y", "type": "double"}, {"name":
+    "71_y", "type": "double"}, {"name": "72_y", "type": "double"}, {"name": "73_y",
+    "type": "double"}, {"name": "74_y", "type": "double"}, {"name": "75_y", "type":
+    "double"}, {"name": "76_y", "type": "double"}, {"name": "77_y", "type": "double"},
+    {"name": "78_y", "type": "double"}, {"name": "79_y", "type": "double"}, {"name":
+    "80_y", "type": "double"}, {"name": "81_y", "type": "double"}, {"name": "82_y",
+    "type": "double"}, {"name": "83_y", "type": "double"}, {"name": "84_y", "type":
+    "double"}, {"name": "85_y", "type": "double"}, {"name": "86_y", "type": "double"},
+    {"name": "87_y", "type": "double"}, {"name": "88_y", "type": "double"}, {"name":
+    "89_y", "type": "double"}, {"name": "90_y", "type": "double"}, {"name": "91_y",
+    "type": "double"}, {"name": "92_y", "type": "double"}, {"name": "93_y", "type":
+    "double"}, {"name": "94_y", "type": "double"}, {"name": "95_y", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2022-10-25 17:51:07.698965'
